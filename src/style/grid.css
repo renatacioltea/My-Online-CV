@@ -1,0 +1,29 @@
+.grid {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.one-third {
+  width: 30%;
+  display: inline-block;
+}
+
+.one-half {
+  width: 50%;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .one-third {
+    width: 100%;
+  }
+  
+  .one-half {
+    width: 100%;
+  }
+
+  .grid {
+    display: block;
+  }
+}

@@ -1,0 +1,61 @@
+
+.contact-page {
+  min-height: calc(100vh - 85px);
+  color: white;
+  padding: 70px 15px;
+}
+
+.contact-page h1 {
+  font-size: 6.4rem;
+  padding: 60px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgba(234, 58, 96, 1);
+}
+
+
+
+.contact-page {
+  background-image: url("../../assets/images/about-me.png");
+  background-size: cover;
+}
+
+.contact-info {
+  display: block;
+  margin: 90px auto;
+  width: 300px;
+  font-size: 2.1rem;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.contact-info i {
+  font-size: 3rem;
+  padding: 12px;
+}
+.contact-links i {
+  padding: 30px;
+  color: #fff;
+  font-size: 10rem;
+}
+
+.contact-links i:hover {
+  color: rgba(234, 58, 96, 1);
+}
+
+
+/******************************** Media queries ***********************************/
+
+@media (max-width: 575.98px) {
+
+  .contact-page h1 {
+    font-size: 3rem;
+    padding: 3px;
+  }
+
+  .contact-links {
+    font-size: 1rem;
+
+  }
+
+}

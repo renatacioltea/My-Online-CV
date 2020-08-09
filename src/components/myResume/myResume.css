@@ -1,0 +1,158 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: calc(100vh - 53px);
+}
+
+.experience-logo {
+  width: 66%;
+  overflow: hidden;
+}
+
+.experience-logo img {
+  width: auto;
+  left: 0px;
+  min-height: calc(100vh - 50px);
+  min-width: 100%;
+}
+
+.resume-container {
+  padding-bottom: 30px;
+  flex: 1;
+}
+
+.dropdown-info .content {
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.content p:nth-child(2) {
+  font-weight: 700;
+}
+
+.content img {
+  width: 15%;
+  height: 15%;
+}
+
+.experience-component {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 2.1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 1px;
+  box-shadow: 6px 24px 36px 22px rgba(145, 138, 145, 0.8);
+  text-align: center;
+  width: 60%;
+  min-width: 320px;
+  max-height: 550px;
+  margin: 30px 40px;
+}
+
+/* arrow styling */
+
+.arrow-down {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.arrow-down:before,
+.arrow-down:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 5px;
+  background: rgba(107, 89, 89, 1);
+  position: absolute;
+  top: 20px;
+  transition: transform 0.5s;
+}
+
+.arrow-down:before {
+  right: 21px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transform: rotate(45deg);
+}
+
+.arrow-down:after {
+  right: 10px;
+  transform: rotate(-45deg);
+}
+
+.arrow-down.active:before {
+  transform: rotate(-45deg);
+}
+
+.arrow-down.active:after {
+  transform: rotate(45deg);
+}
+
+.isOpen .arrow-down {
+  transform: rotate(180deg);
+}
+
+.open-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+
+
+/******************************** Media queries ***********************************/
+
+
+@media (max-width: 768px) {
+
+  .container {
+    display: block;
+  }
+
+  .experience-logo {
+    width: 100%;
+  }
+
+  .experience-logo img {
+    min-height: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .experience-component:hover,
+  .experience-component:focus {
+    background-color: white;
+    outline: none;
+  }
+
+
+  .experience-logo {
+    width: 100%;
+  }
+
+  .experience-logo img {
+    min-height: auto;
+  }
+
+  .experience-component {
+    margin: 20px auto;
+    /* width: 90%; */
+  }
+
+}
+
+
