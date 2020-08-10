@@ -4,6 +4,7 @@ function Home() {
   return (
   <React.Fragment>
     <section className="introduction">
+
       <div className="aside-text">
         <p>Hey there, I`m</p>
         <br />
@@ -11,11 +12,15 @@ function Home() {
         <br />
         <p>Accountant & Aspiring Web developer</p>
       </div>
+
       <a className="find-more-about-me" href="#aboutme">About Me</a>
+
     </section>
 
     <section className="about-me" id="aboutme">
+
       <h3>ABOUT ME</h3>
+
       <div className="short-description">
         <p>
           My name is Renata. I would describe myself as an outgoing,
@@ -29,9 +34,11 @@ function Home() {
         </p>
         <p>In my free-time, </p>
         <p>I like :</p>
+
       </div>
 
       <div className="cards grid">
+
         <div className="card one-third">
           <i className="fas fa-music"></i>
           <div>
@@ -73,8 +80,7 @@ function Home() {
         </div>
       </div>
     </section>
-  </React.Fragment>
-  );
+  </React.Fragment>);
 }
 
 export default Home;

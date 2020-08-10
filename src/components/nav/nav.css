@@ -68,6 +68,7 @@ header {
 /******************************** Media queries ***********************************/
 
 @media (min-width: 769px) {
+
   .burger-menu {
     display: none;
   }
@@ -75,6 +76,7 @@ header {
 
 
 @media (max-width: 768px) {
+  
   .navigation-links {
     display: none;
   }

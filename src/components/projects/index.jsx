@@ -5,6 +5,7 @@ function Projects() {
     <div className="projects-page">
       <h1>What I worked on so far</h1>
       <div className="projects-grid grid">
+
         <div className="project one-third">
           <a href="https://github.com/renatacioltea/tic-tac-toe.git" className="project-link" target="blank">
             <span className="project-name"> Tic-tac-toe</span>
@@ -12,6 +13,7 @@ function Projects() {
           </a>
           <div className="project-title"></div>
         </div>
+
         <div className="project one-third">
           <a href="https://github.com/renatacioltea/Weather-app.git" className="project-link" target="blank">
             <span className="project-name"> Weather app</span>
@@ -19,6 +21,7 @@ function Projects() {
           </a>
           <div className="project-title"></div>
         </div>
+
         <div className="project one-third">
           <a href="https://github.com/renatacioltea/Drum-kit-js.git" className="project-link" target="blank">
             <span className="project-name"> Drum kit</span>
@@ -26,7 +29,9 @@ function Projects() {
           </a>
           <div className="project-title"></div>
         </div>
+
       </div>
+      
     </div>
   );
 }

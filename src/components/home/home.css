@@ -138,8 +138,8 @@ i {
 /******************************** Media queries ***********************************/
 
  @media (max-width: 575.98px) {
+
   .aside-text {
-   
     top: 255px;
     left: 4px;
   }
@@ -191,6 +191,7 @@ i {
 
 
 @media (max-width: 768px) {
+
   .navigation-links {
     display: none;
   }
@@ -223,6 +224,7 @@ i {
 }
 
 @media (min-width: 769px) {
+  
   .burger-menu {
     display: none;
   }
