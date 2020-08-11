@@ -11,9 +11,9 @@
 /* short introduction from Home Page */
 
 .aside-text {
+  top: 43%;
+  left: 1%;
   position: absolute;
-  top: 350px;
-  left: 50px;
   color: #ffffff;
   padding: 5px 5px;
 }
@@ -39,8 +39,6 @@
 
 .find-more-about-me {
   position: absolute;
-  top: 700px;
-  left: 60px;
   padding: 15px 30px;
   border: solid 1px rgba(234, 58, 96, 1);
   border-radius: 10px;
@@ -139,11 +137,6 @@ i {
 
  @media (max-width: 575.98px) {
 
-  .aside-text {
-    top: 255px;
-    left: 4px;
-  }
-
   .aside-text p:first-of-type {
     font-size: 2rem;
     text-align: left;
@@ -160,8 +153,8 @@ i {
   }
 
   .find-more-about-me {
-    top: 500px;
-    left: 60px;
+    top: 65%;
+    left: 5%;
   }
 
   .about-me h3 {
@@ -201,6 +194,12 @@ i {
     background-position: 43% 50%;
   }
 
+  
+  .find-more-about-me {
+    top: 75%;
+    left: 5%;
+  }
+
 
   .cards {
     width: 100%;
@@ -234,4 +233,8 @@ i {
     background-position: center center;
   }
 
+  .find-more-about-me {
+    top:74%;
+    left: 5%;
+  }
 }
