@@ -34,7 +34,7 @@ class ExperienceComponent extends React.Component {
 		
     return (
       <div className={classValue}>
-        <div className="title">
+        <div className="title" onClick={this.toggleIsOpen}>
           <h4>{title}</h4>
           <span className="open-button" onClick={this.toggleIsOpen}>
             <span className="arrow-down"></span>
