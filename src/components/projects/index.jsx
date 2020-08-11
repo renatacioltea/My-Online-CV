@@ -7,7 +7,7 @@ function Projects() {
       <div className="projects-grid grid">
 
         <div className="project one-third">
-          <a href="https://github.com/renatacioltea/tic-tac-toe.git" className="project-link" target="blank">
+          <a href="https://renatacioltea.github.io/tic-tac-toe/" className="project-link" target="_blank">
             <span className="project-name"> Tic-tac-toe</span>
             <span className="project-more">View source code</span>
           </a>
@@ -15,7 +15,7 @@ function Projects() {
         </div>
 
         <div className="project one-third">
-          <a href="https://github.com/renatacioltea/Weather-app.git" className="project-link" target="blank">
+          <a href="https://renatacioltea.github.io/Weather-app/"  className="project-link" target="_blank">
             <span className="project-name"> Weather app</span>
             <span className="project-more">View source code</span>
           </a>
@@ -23,7 +23,7 @@ function Projects() {
         </div>
 
         <div className="project one-third">
-          <a href="https://renatacioltea.github.io/Drum-kit-js/" target="_blank" className="project-link" target="blank">
+          <a href="https://renatacioltea.github.io/Drum-kit-js/" className="project-link" target="_blank">
             <span className="project-name"> Drum kit</span>
             <span className="project-more">View source code</span>
           </a>
