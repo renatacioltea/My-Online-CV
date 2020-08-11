@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
   constructor(props) {
@@ -23,23 +24,23 @@ class Nav extends React.Component {
     return (
       <header>
         <div className="logo">
-          <a href="/">CIOLTEA RENATA</a>
+          <Link to="/">CIOLTEA RENATA</Link>
         </div>
 
         <div className="nav">
           <ul className={menuClass}>
             <div className="navigation-close" onClick={this.toggleIsOpen}>X</div>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/myResume">My Online CV</a>
+              <Link to="/myResume">My Online CV</Link>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
 
