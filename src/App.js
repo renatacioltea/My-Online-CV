@@ -15,7 +15,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/My-Online-CV">
         <div>
           <Nav></Nav>
 
