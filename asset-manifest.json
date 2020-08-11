@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Online-CV/static/css/main.65c87a7a.chunk.css",
+    "main.js": "/My-Online-CV/static/js/main.03b7720d.chunk.js",
+    "main.js.map": "/My-Online-CV/static/js/main.03b7720d.chunk.js.map",
+    "runtime-main.js": "/My-Online-CV/static/js/runtime-main.6902a77b.js",
+    "runtime-main.js.map": "/My-Online-CV/static/js/runtime-main.6902a77b.js.map",
+    "static/js/2.9a35f9a8.chunk.js": "/My-Online-CV/static/js/2.9a35f9a8.chunk.js",
+    "static/js/2.9a35f9a8.chunk.js.map": "/My-Online-CV/static/js/2.9a35f9a8.chunk.js.map",
+    "index.html": "/My-Online-CV/index.html",
+    "precache-manifest.6dccfbe4d43937fc3dc69d9281852802.js": "/My-Online-CV/precache-manifest.6dccfbe4d43937fc3dc69d9281852802.js",
+    "service-worker.js": "/My-Online-CV/service-worker.js",
+    "static/css/main.65c87a7a.chunk.css.map": "/My-Online-CV/static/css/main.65c87a7a.chunk.css.map",
+    "static/js/2.9a35f9a8.chunk.js.LICENSE.txt": "/My-Online-CV/static/js/2.9a35f9a8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/My-Online-CV/static/media/weather-app_s.482776bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6902a77b.js",
+    "static/js/2.9a35f9a8.chunk.js",
+    "static/css/main.65c87a7a.chunk.css",
+    "static/js/main.03b7720d.chunk.js"
+  ]
+}
