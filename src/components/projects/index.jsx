@@ -23,7 +23,7 @@ function Projects() {
         </div>
 
         <div className="project one-third">
-          <a href="https://github.com/renatacioltea/Drum-kit-js.git" className="project-link" target="blank">
+          <a href="https://renatacioltea.github.io/Drum-kit-js/" target="_blank" className="project-link" target="blank">
             <span className="project-name"> Drum kit</span>
             <span className="project-more">View source code</span>
           </a>
