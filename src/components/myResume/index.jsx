@@ -56,21 +56,21 @@ function MyResume() {
           content={
             <div className="dropdown-info">
               <div className="content">
-                <img src="../../assets/images/eon-logo.png" alt="eon-logo"/>
+                <img src="assets/images/eon-logo.png" alt="eon-logo"/>
                 <p>Accounts Payable Associate</p>
                 <p>October 2018 - Present</p>
                 <p>E.ON Business Services Cluj</p>
               </div>
 
               <div className="content">
-                <img src="../../assets/images/rsm-logo.png" alt="rsm-logo" />
+                <img src="assets/images/rsm-logo.png" alt="rsm-logo" />
                 <p>Accountant</p>
                 <p>March 2017 - September 2018</p>
                 <p>RSM Romania Srl</p>
               </div>
 
               <div className="content">
-                <img src="../../assets/images/kan-ban-logo.jpg" alt="kan-ban-logo"/>  
+                <img src="assets/images/kan-ban-logo.jpg" alt="kan-ban-logo"/>  
                 <p>Accounting Intern</p>
                 <p>October 2015 - March 2017</p>
                 <p>Sc Kan Ban Srl</p>
@@ -88,7 +88,7 @@ function MyResume() {
           content={
             <div className="dropdown-info">
               <div className="content">
-                <img src="../../assets/images/hard-skills .png" alt="hard-skills"/>
+                <img src="assets/images/hard-skills .png" alt="hard-skills"/>
                 <h5>Tehnical skills :</h5>
                 <p>Accounting knowledge</p>
                 <p>Mathematical skills</p>
@@ -96,7 +96,7 @@ function MyResume() {
               </div>
 
               <div className="content">
-                <img src="../../assets/images/soft-skills.png" alt="soft-skills"/>
+                <img src="assets/images/soft-skills.png" alt="soft-skills"/>
                 <h5>Interpersonal skills :</h5>
                 <p>Motivation</p>
                 <p>Communication</p>

@@ -40,7 +40,7 @@ class ExperienceComponent extends React.Component {
             <span className="arrow-down"></span>
           </span>
         </div>
-        {this.state.isOpen === true ? <p>{content} </p> : ""}
+        {this.state.isOpen === true ? <div>{content} </div> : ""}
       </div>
     );
   }
