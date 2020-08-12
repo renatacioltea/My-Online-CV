@@ -31,16 +31,16 @@ class Nav extends React.Component {
           <ul className={menuClass}>
             <div className="navigation-close" onClick={this.toggleIsOpen}>X</div>
             <li>
-              <Link to="/">Home</Link>
+              <Link onClick={this.toggleIsOpen} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/myResume">My Online CV</Link>
+              <Link onClick={this.toggleIsOpen} to="/myResume">My Online CV</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link onClick={this.toggleIsOpen} to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link onClick={this.toggleIsOpen}to="/contact">Contact</Link>
             </li>
           </ul>
 
