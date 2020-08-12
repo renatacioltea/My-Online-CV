@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cf5cbdb053b55600f2d7d5823ec72f0",
+    "revision": "a1340fcf07bc517a2e304af2112e92ce",
     "url": "/My-Online-CV/index.html"
   },
   {
-    "revision": "19eb102a6bc367ea974b",
-    "url": "/My-Online-CV/static/css/main.65c87a7a.chunk.css"
+    "revision": "bc1dd74015cb747fcc06",
+    "url": "/My-Online-CV/static/css/main.f8ffc470.chunk.css"
   },
   {
     "revision": "bc0b63d95250d7ffa007",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Online-CV/static/js/2.690897ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19eb102a6bc367ea974b",
-    "url": "/My-Online-CV/static/js/main.9b812465.chunk.js"
+    "revision": "bc1dd74015cb747fcc06",
+    "url": "/My-Online-CV/static/js/main.c1250930.chunk.js"
   },
   {
     "revision": "9b71128714a48a385df1",
