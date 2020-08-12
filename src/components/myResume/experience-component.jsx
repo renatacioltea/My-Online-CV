@@ -36,11 +36,11 @@ class ExperienceComponent extends React.Component {
       <div className={classValue}>
         <div className="title" onClick={this.toggleIsOpen}>
           <h4>{title}</h4>
-          <span className="open-button" onClick={this.toggleIsOpen}>
+          <span className="open-button">
             <span className="arrow-down"></span>
           </span>
         </div>
-        {this.state.isOpen === true ? <div>{content} </div> : ""}
+        {this.state.isOpen === true ? <div>{content} </div> :null }
       </div>
     );
   }
